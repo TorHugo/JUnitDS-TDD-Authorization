@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.bds03.dto.DepartmentDTO;
+import com.devsuperior.bds03.model.dto.DepartmentDTO;
 import com.devsuperior.bds03.services.DepartmentService;
 
 @RestController

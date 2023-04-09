@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.bds03.dto.EmployeeDTO;
+import com.devsuperior.bds03.model.dto.EmployeeDTO;
 import com.devsuperior.bds03.tests.TokenUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -39,10 +39,10 @@ public class EmployeeControllerIT {
 	
 	@BeforeEach
 	void setUp() throws Exception {
-		
-		operatorUsername = "ana@gmail.com";
+
+		operatorUsername = "alex@gmail.com";
 		operatorPassword = "123456";
-		adminUsername = "bob@gmail.com";
+		adminUsername = "maria@gmail.com";
 		adminPassword = "123456";
 	}
 	
